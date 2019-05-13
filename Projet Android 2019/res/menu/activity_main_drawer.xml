@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view"
+    >
+
+
+    <item android:title="Compte">
+        <menu>
+            <item
+
+                android:id="@+id/nav_Compte"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="Mon compte" />
+            <item
+                android:id="@+id/nav_Mes_annonce"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Mes annonce" />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_all_inclusive_black_24dp"
+            android:title="Acceuil" />
+        <item
+            android:id="@+id/nav_Loueroutil"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Louer un outil" />
+        <item
+            android:id="@+id/nav_louermonoutil"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Louer mon outil" />
+
+    </group>
+
+    <item android:title="Utilitaire">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="FAQ" />
+            <item
+                android:id="@+id/Nous_Joindre"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Nous joindre" />
+
+            <item
+                android:id="@+id/Deconnexion"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Deconnexion" />
+
+        </menu>
+    </item>
+
+
+
+</menu>

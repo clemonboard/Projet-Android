@@ -1,0 +1,83 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBB00">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="873dp"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="40dp"
+        android:paddingRight="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gloupiilogo"
+            tools:layout_conversion_absoluteHeight="134dp"
+            tools:layout_conversion_absoluteWidth="181dp"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+
+
+
+
+
+
+            <EditText
+                android:id="@+id/Description"
+                style="@style/Widget.MaterialComponents.TextInputEditText.FilledBox"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:background="#F8FDFD"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="30dp"
+                />
+
+
+
+
+
+
+
+
+
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/Deposerbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Continuer"
+            />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
